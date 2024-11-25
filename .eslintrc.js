@@ -3,6 +3,7 @@
 module.exports = {
   root: true,
   parser: '@babel/eslint-parser',
+  ignorePatterns: ["temp.js", "config/*"],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
